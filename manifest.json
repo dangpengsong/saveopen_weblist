@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "保存打开网址列表",
+    "version": "2.0",
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
+    "description": "保存打开网址列表",
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_title": "保存打开网址列表",
+        "default_icon": "ico.png",
+        "default_popup": "index.html"
+    }
+}

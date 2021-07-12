@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors dangpengsong (372985762@qq.com)
+ * @date    2019-06-21 16:03:18
+ * @version $Id$
+ */
+
+* {
+    font-size: 14px;
+    font-family: '微软雅黑';
+}
+a:hover {
+    cursor: pointer;
+}
+input[name='name'], button {
+    height: 20px;
+    border: 1px solid #eaeaea;
+    margin: 5;
+    font-size: 10px;
+}
+li {
+    padding: 2px 0;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px dashed #eaeaea;
+}
+li a{
+    margin-left: 10px;
+}
+li a.remove{
+    margin-right: 10px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.industry_format {
+    position: relative;
+    margin: 20px 0 10px 0;
+    padding-top: 10px;
+    width: 250px;
+    min-height: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+}
+.industry_format .download {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+}
+.industry_format .read {
+    position: absolute;
+    top: -10px;
+    right: 60px;
+}
+.industry_tool {
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+}
